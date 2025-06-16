@@ -7,7 +7,7 @@ import footerImg from "../assets/footer.png";
 import Button from "../components/ui/Button";
 import concernCommitImg from "../assets/concern-commit.png";
 import heroImg from "../assets/hero.png";
-import { useLandingPage } from "../hooks/uselandingPage";
+import { useLandingPage } from "../hooks/useLandingPage";
 
 function LandingPage() {
   const { heroRef, isFixed } = useLandingPage();
