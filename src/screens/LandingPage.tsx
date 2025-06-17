@@ -3,11 +3,11 @@ import aboutCompanyImg from "../assets/about-company.png";
 import letsBeginImg from "../assets/lets-begin.png";
 import stepImg from "../assets/step.png";
 import reviewImg from "../assets/review.png";
-import footerImg from "../assets/footer.png";
 import Button from "../components/ui/Button";
 import concernCommitImg from "../assets/concern-commit.png";
 import heroImg from "../assets/hero.png";
 import { useLandingPage } from "../hooks/useLandingPage";
+import Footer from "../components/ui/Footer";
 
 function LandingPage() {
   const { heroRef, isFixed } = useLandingPage();
@@ -23,11 +23,7 @@ function LandingPage() {
               : "absolute top-[78%] md:top-[80%] md:w-[60%] lg:w-[60%]"
           } left-1/2 -translate-x-1/2 z-50 w-[80%] sm:w-[60%] md:w-[40%] lg:w-[40%]
           transition-all duration-500 ease-in-out
-    ${
-      isFixed
-        ? "opacity-100 translate-y-0"
-        : "opacity-100 translate-y-4 pointer-events-none"
-    }
+    ${isFixed ? "opacity-100 translate-y-0" : "opacity-100 translate-y-4"}
 `}
         >
           <Button />
@@ -60,7 +56,7 @@ function LandingPage() {
         />
       </div>
       <div className="w-full">
-        <img src={footerImg} alt="footer" className="w-full block" />
+        <Footer />
       </div>
     </div>
   );
