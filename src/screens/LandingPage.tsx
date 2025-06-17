@@ -55,9 +55,7 @@ function LandingPage() {
           className="w-full block"
         />
       </div>
-      <div className="w-full">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 }
