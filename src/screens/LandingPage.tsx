@@ -1,4 +1,4 @@
-import jobRevenue from "../assets/job-revenue.png";
+import jobRevenueImg from "../assets/job-revenue.png";
 import aboutCompanyImg from "../assets/about-company.png";
 import letsBeginImg from "../assets/lets-begin.png";
 import stepImg from "../assets/step.png";
@@ -37,7 +37,7 @@ function LandingPage() {
         />
       </div>
       <div className="w-full bg-white">
-        <img src={jobRevenue} alt="jobRevenue" className="w-full block" />
+        <img src={jobRevenueImg} alt="jobRevenue" className="w-full block" />
       </div>
       <div className="w-full">
         <img src={stepImg} alt="stepImg" className="w-full block" />
