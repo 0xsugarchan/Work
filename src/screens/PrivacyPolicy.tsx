@@ -5,8 +5,8 @@ function PrivacyPolicy() {
   return (
     <div className="flex flex-col items-center">
       <Header title="プライバシーポリシー" />
-      <div className="w-full max-w-md bg-white p-2 text-[#0C0C0C] [font-family:'Inter',Helvetica] text-xs leading-relaxed text-left">
-        <p className="mb-4">
+      <div className="w-full bg-white p-5 text-[#0C0C0C] [font-family:'Inter',Helvetica] text-xs leading-relaxed text-left font-medium">
+        <p className="mb-5">
           ankh（以下、当社）は、個人情報の取扱いについて個人情報保護方針を定めます。
           <br />
           また、役員及び従業員が個人情報を適切に取り扱うことの重要性を認識した上でこれを遵守し、お客様の個人情報の保護を行ってまいります。
@@ -54,7 +54,7 @@ function PrivacyPolicy() {
             <br />
             お客様の個人情報について、自己情報の訂正若しくは削除、又は利用停止を求められたときは、所定の手続きでご本人様であることを確認のうえ、社会通念や慣行に照らし合理的な範囲ですみやかに対応致します。
           </li>
-          <li>
+          <li className="mb-2">
             <b>改善措置</b>
             <br />
             当社は、個人情報保護に関する取り組みについて、社会環境の変化に的確に対応するよう勤め、継続的に見直し、改善に努めます。
