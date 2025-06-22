@@ -14,13 +14,13 @@ function LandingPage() {
 
   return (
     <div className="w-full flex justify-center">
-      <div className="w-full max-w-[390px]">
+      <div className="w-full sm:max-w-[390px] mx-auto">
         <div ref={heroRef} className="relative">
           <img
             src={heroImg}
             alt="heroImg"
             loading="eager"
-            width={390}
+            width={393}
             height={550}
             className="w-full h-auto block"
           />
@@ -44,7 +44,7 @@ function LandingPage() {
           src={concernCommitImg}
           alt="concernCommitImg"
           loading="lazy"
-          width={390}
+          width={425}
           height={1176}
           className="w-full h-auto block"
         />
@@ -53,7 +53,7 @@ function LandingPage() {
             src={jobRevenueImg}
             alt="jobRevenue"
             loading="lazy"
-            width={390}
+            width={391}
             height={550}
             className="w-full h-auto block"
           />
@@ -78,7 +78,7 @@ function LandingPage() {
           src={letsBeginImg}
           alt="letsBegin"
           loading="lazy"
-          width={390}
+          width={392}
           height={505}
           className="w-full h-auto block"
         />

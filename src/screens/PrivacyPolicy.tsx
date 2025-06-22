@@ -3,7 +3,7 @@ import Header from "../components/ui/Header";
 
 function PrivacyPolicy() {
   return (
-    <div className="flex flex-col items-center w-full max-w-[390px]">
+    <div className="flex flex-col items-center w-full sm:max-w-[390px] mx-auto">
       <Header title="プライバシーポリシー" />
       <div className="w-full bg-white p-5 text-[#0C0C0C] [font-family:'Inter',Helvetica] text-xs leading-relaxed text-left font-medium">
         <p className="mb-5">
