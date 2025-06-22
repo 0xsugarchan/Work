@@ -38,25 +38,59 @@ function LandingPage() {
         <img
           src={concernCommitImg}
           alt="concernCommitImg"
+          loading="lazy"
+          width={390}
+          height={1176}
           className="w-full block"
         />
       </div>
-      <div className="w-full bg-white">
-        <img src={jobRevenueImg} alt="jobRevenue" className="w-full block" />
+      <div className="w-full bg-white pt-5">
+        <img
+          src={jobRevenueImg}
+          alt="jobRevenue"
+          loading="lazy"
+          width={390}
+          height={550}
+          className="w-full block"
+        />
       </div>
       <div className="w-full">
-        <img src={stepImg} alt="stepImg" className="w-full block" />
+        <img
+          src={stepImg}
+          alt="stepImg"
+          loading="lazy"
+          width={390}
+          height={446}
+          className="w-full block"
+        />
       </div>
       <div className="w-full">
-        <img src={reviewImg} alt="reviewImg" className="w-full block" />
+        <img
+          src={reviewImg}
+          alt="reviewImg"
+          loading="lazy"
+          width={390}
+          height={625}
+          className="w-full block"
+        />
       </div>
       <div className="w-full">
-        <img src={letsBeginImg} alt="letsBegin" className="w-full block" />
+        <img
+          src={letsBeginImg}
+          alt="letsBegin"
+          loading="lazy"
+          width={390}
+          height={505}
+          className="w-full block"
+        />
       </div>
       <div className="w-full">
         <img
           src={aboutCompanyImg}
           alt="aboutCompany"
+          loading="lazy"
+          width={390}
+          height={250}
           className="w-full block"
         />
       </div>
