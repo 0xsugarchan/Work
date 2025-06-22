@@ -15,13 +15,18 @@ function LandingPage() {
   return (
     <div className="flex flex-col items-center">
       <div ref={heroRef} className="relative w-full">
-        <img src={heroImg} alt="heroImg" className="w-full block" />
+        <img
+          src={heroImg}
+          alt="heroImg"
+          loading="lazy"
+          width={390}
+          height={550}
+          className="w-full block"
+        />
         <div
           className={`${
-            isFixed
-              ? "fixed bottom-[20%] md:w-[72%] lg:w-[50%]"
-              : "absolute top-[78%] md:top-[80%] md:w-[60%] lg:w-[60%]"
-          } left-1/2 -translate-x-1/2 z-50 w-[80%] sm:w-[60%] md:w-[40%] lg:w-[40%]
+            isFixed ? "fixed bottom-[20%]" : "absolute top-[78%] md:top-[80%]"
+          } left-1/2 -translate-x-1/2 z-50 w-[80%] sm:w-[60%] md:w-[40%] lg:w-[50%]
           transition-all duration-500 ease-in-out
     ${isFixed ? "opacity-100 translate-y-0" : "opacity-100 translate-y-4"}
 `}
