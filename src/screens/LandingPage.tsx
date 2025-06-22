@@ -28,7 +28,7 @@ function LandingPage() {
             className={`${
               isFixed ? "fixed bottom-[20%]" : "absolute top-[78%] md:top-[80%]"
             } left-1/2 -translate-x-1/2 z-50
-              w-[280px] h-[60px] md:w-[320px] md:h-[64px]
+              w-[282px] h-[73px] md:w-[320px] md:h-[64px]
               transition-all duration-500 ease-in-out
               ${
                 isFixed
