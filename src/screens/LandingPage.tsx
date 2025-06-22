@@ -19,7 +19,7 @@ function LandingPage() {
           <img
             src={heroImg}
             alt="heroImg"
-            loading="lazy"
+            loading="eager"
             width={390}
             height={550}
             className="w-full h-auto block"
