@@ -6,14 +6,12 @@ const Footer: React.FC = () => {
 
   const handleNavigateWithScroll = (path: string) => {
     if (location.pathname === path) {
-      // 今いるページならスクロールだけ
       window.scrollTo({ top: 0, behavior: "smooth" });
     } else {
-      // 遷移してからスクロール
       navigate(path);
       setTimeout(() => {
         window.scrollTo({ top: 0, behavior: "auto" });
-      }, 0); // 0 で大丈夫ですが、必要なら100msなど調整可
+      }, 0);
     }
   };
 
