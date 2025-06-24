@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 a {
-  color: inherit;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
+	color: inherit;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
 }
 
 a:hover {
-  color: #aaaaaa; /* light gray on hover */
-  text-decoration: underline;
+	color: #aaaaaa; /* light gray on hover */
+	text-decoration: underline;
 }
 
 a:active {
-  transform: scale(0.96);
+	transform: scale(0.96);
 }
