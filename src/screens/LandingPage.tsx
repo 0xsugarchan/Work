@@ -7,24 +7,20 @@ import Button from "../components/ui/Button";
 import concernCommitImg from "../assets/concern-commit.png";
 import heroImg from "../assets/hero.png";
 import Footer from "../components/ui/Footer";
+import bannerIng from "../assets/banner.png";
 
 function LandingPage() {
   return (
     <div className="w-full flex justify-center">
       <div className="w-full sm:max-w-[390px] mx-auto">
-        <div className="relative">
-          <img
-            src={heroImg}
-            alt="heroImg"
-            loading="eager"
-            width={390}
-            height={540}
-            className="w-full h-auto block"
-          />
-          <div className="fixed bottom-[27%] left-1/2 -translate-x-1/2 z-50 w-[390px] h-[127px]">
-            <Button />
-          </div>
-        </div>
+        <img
+          src={heroImg}
+          alt="heroImg"
+          loading="eager"
+          width={390}
+          height={540}
+          className="w-full h-auto block"
+        />
         <img
           src={concernCommitImg}
           alt="concernCommitImg"
@@ -33,6 +29,14 @@ function LandingPage() {
           height={1176}
           className="w-full h-auto block"
         />
+        <div className="fixed bottom-[6.7%] left-1/2 -translate-x-1/2 z-50 w-full h-auto block sm:max-w-[390px]">
+          <div className="relative">
+            <img alt="Banner" src={bannerIng} className="w-full" />
+            <div className="absolute bottom-4 right-3 w-[53%] max-w-[210px]">
+              <Button />
+            </div>
+          </div>
+        </div>
         <div className="bg-white pt-5">
           <img
             src={jobRevenueImg}
