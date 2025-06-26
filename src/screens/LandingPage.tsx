@@ -17,11 +17,11 @@ function LandingPage() {
             src={heroImg}
             alt="heroImg"
             loading="eager"
-            width={393}
-            height={550}
+            width={390}
+            height={540}
             className="w-full h-auto block"
           />
-          <div className="fixed bottom-[38%] left-1/2 -translate-x-1/2 z-50 w-[282px] h-[73px]">
+          <div className="fixed bottom-[27%] left-1/2 -translate-x-1/2 z-50 w-[390px] h-[127px]">
             <Button />
           </div>
         </div>
