@@ -10,7 +10,7 @@ import { useLandingPage } from "../hooks/useLandingPage";
 import Footer from "../components/ui/Footer";
 
 function LandingPage() {
-  const { heroRef, isFixed } = useLandingPage();
+  const { heroRef } = useLandingPage();
 
   return (
     <div className="w-full flex justify-center">
