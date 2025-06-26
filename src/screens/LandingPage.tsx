@@ -6,16 +6,13 @@ import reviewImg from "../assets/review.png";
 import Button from "../components/ui/Button";
 import concernCommitImg from "../assets/concern-commit.png";
 import heroImg from "../assets/hero.png";
-import { useLandingPage } from "../hooks/useLandingPage";
 import Footer from "../components/ui/Footer";
 
 function LandingPage() {
-  const { heroRef } = useLandingPage();
-
   return (
     <div className="w-full flex justify-center">
       <div className="w-full sm:max-w-[390px] mx-auto">
-        <div ref={heroRef} className="relative">
+        <div className="relative">
           <img
             src={heroImg}
             alt="heroImg"
