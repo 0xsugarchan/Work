@@ -29,7 +29,7 @@ function LandingPage() {
           height={1176}
           className="w-full h-auto block"
         />
-        <div className="fixed bottom-[6.7%] left-1/2 -translate-x-1/2 z-50 w-full h-auto block sm:max-w-[390px]">
+        <div className="fixed bottom-[5%] left-1/2 -translate-x-1/2 z-50 w-full h-auto block sm:max-w-[390px]">
           <div className="relative">
             <img alt="Banner" src={bannerIng} className="w-full" />
             <div className="absolute bottom-4 right-3 w-[53%] max-w-[210px]">
