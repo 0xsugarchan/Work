@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
         requestAnimationFrame(() => {
           const scrollTarget =
             document.scrollingElement || document.documentElement;
-          scrollTarget.scrollTo({ top: 0, behavior: "smooth" });
+          scrollTarget.scrollTo({ top: 0, behavior: "auto" });
         });
       });
     }
