@@ -9,9 +9,11 @@ const Footer: React.FC = () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
     } else {
       navigate(path);
-      setTimeout(() => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      }, 100);
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          window.scrollTo({ top: 0, behavior: "auto" });
+        });
+      });
     }
   };
 
