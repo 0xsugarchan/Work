@@ -80,6 +80,7 @@ function LandingPage() {
           className="w-full h-auto block"
         />
         <Footer />
+        <div className="pb-[128px] bg-[#141414]" />
       </div>
     </div>
   );
