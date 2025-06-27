@@ -9,13 +9,9 @@ const Footer: React.FC = () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
     } else {
       navigate(path);
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          const scrollTarget =
-            document.scrollingElement || document.documentElement;
-          scrollTarget.scrollTo({ top: 0, behavior: "auto" });
-        });
-      });
+      setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }, 100);
     }
   };
 
